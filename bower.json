@@ -1,0 +1,23 @@
+{
+  "name": "accoutrement-reset",
+  "version": "1.0.0",
+  "homepage": "https://github.com/oddbird/accoutrement-reset",
+  "authors": [
+    "Eric Suzanne"
+  ],
+  "description": "Reset helpers based on Compass reset",
+  "main": "sass/_reset.scss",
+  "keywords": [
+    "reset",
+    "sass",
+    "css",
+    "accoutrement"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ]
+}
