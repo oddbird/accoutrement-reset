@@ -5,7 +5,7 @@
   "authors": [
     "Eric Suzanne"
   ],
-  "description": "Reset helpers based on Compass reset",
+  "description": "Reset based on Eric Meyer's CSS reset. Unlike Eric's original reset, we reset the html element.",
   "main": "sass/_reset.scss",
   "keywords": [
     "reset",
