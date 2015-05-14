@@ -1,0 +1,21 @@
+// Reset Config Tests
+// ==================
+
+@import '../../node_modules/sass-true/sass/true';
+@import '../../sass/reset.config';
+
+@include test-module('reset-box-model [mixin]') {
+  @include test('Apply box-model reset') {
+    @include assert('Box is reset') {
+      @include input {
+        @include reset-box-model;
+      }
+
+      @include expect {
+        border: 0;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}

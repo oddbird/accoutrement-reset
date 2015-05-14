@@ -1,7 +1,7 @@
 {
   "name": "accoutrement-reset",
-  "version": "1.0.0",
-  "description": "Reset based on Eric Meyer's CSS reset. Unlike Eric's original reset, we reset the html element",
+  "version": "1.0.1",
+  "description": "Reset based on Eric Meyer's CSS reset",
   "homepage": "https://github.com/oddbird/accoutrement-reset",
   "repository": {
     "type": "git",
@@ -9,7 +9,25 @@
   },
   "author": "Eric M Suzanne <eric@oddbird.net>",
   "license": "MIT",
-    "bugs": {
+  "keywords": [
+    "sass",
+    "accoutrement",
+    "toolkit",
+    "reset",
+    "css",
+    "eyeglass-module"
+  ],
+  "eyeglass": {
+    "exports": "eyeglass-exports.js"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "bugs": {
     "url": "https://github.com/oddbird/accoutrement-reset/issues"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "sass-true": "^2.0.2"
   }
 }
