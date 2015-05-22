@@ -1,12 +1,15 @@
 {
   "name": "accoutrement-reset",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/oddbird/accoutrement-reset",
   "authors": [
     "Eric Suzanne"
   ],
   "description": "Reset based on Eric Meyer's CSS reset.",
-  "main": "sass/_reset.scss",
+  "main": [
+    "sass/_reset.scss",
+    "sass/_reset.config.scss"
+  ],
   "keywords": [
     "reset",
     "sass",
